@@ -1,0 +1,36 @@
+# Dependencies
+/node_modules
+/.next/
+/out/
+/build
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env*.local
+.env
+.env.production
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Backend specific
+backend/node_modules
+backend/uploads
+backend/.env
+
+# Test scripts
+test_e2e.js
+test_e2e.sh
+prepare_github.js
+github_payload.json
+
+# OS files
+.DS_Store
